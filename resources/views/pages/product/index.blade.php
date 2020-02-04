@@ -11,7 +11,7 @@
                 <h3>All Products</h3>
                 <div class="row">
                     @foreach($products as $product)
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="card" >
                             {{-- <img class="card-img-top feature-img" src="{{asset('images/products/'.'mobile1.jpg')}}" alt="Card image cap"> --}}
                             @php  $i = 1; @endphp
